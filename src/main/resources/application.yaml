@@ -1,0 +1,21 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: eyyub
+    password: eyyub
+    converter:
+      trusted-packages:
+        - "com.example.rabbitmqg.model"
+
+
+
+sr:
+  rabbit:
+    queue:
+      name: rabbit-mq-queue
+    exchange:
+      name: rabbit-mq-exchange
+    routing:
+      name: rabbit-mq-routing
+
